@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <title>React ⚛️</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      ReactDOM.render(
+
+      //element where we want to create which is createElement using in h1 tag with element null and the content
+        React.createElement("h1",
+         null,
+         "Getting Started with React"
+         ),
+         //second seperated by comma, we are getting the element we are putting the element in root inside div
+         document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
